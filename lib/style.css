@@ -1,0 +1,204 @@
+body, html {
+    height: 100%;
+}
+
+.body-index, 
+.body-main {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: gainsboro;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    width: 500px;
+    padding: 15px 35px 15px 35px;
+    background: #fff;
+    text-align: left;
+    opacity: 0.6;
+    border-radius: 20px;
+}
+
+section{
+    align-items: center;
+    align-content: center;
+}
+
+.form-box2{
+    width: 1000px;
+    padding: 15px 35px 15px 35px;
+    background: #fff;
+    opacity: 0.8;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.form-box input[type="email"], 
+.form-box input[type="password"], 
+.form-box input[type="text"], 
+.form-box button[type="submit"], 
+.form-box2 button[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px groove gray;
+    padding: 14px 10px;
+    width: 450px;
+    height: 30px;
+    color: #011;
+    border-color: #fffff0; 
+    border-radius: 5px;
+    transition: 0.25s;
+}
+
+.form-box input[type="email"]:focus, 
+.form-box input[type="text"]:focus, 
+.form-box input[type="password"]:focus{
+    /*width: 400px;*/
+    border-color: #E8600F;
+}
+
+.form-box button[type="submit"], 
+.form-box2 button[type="submit"] {
+    border: 0;
+    background: #E8600F;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid orangered;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: 200px;
+    height: 45px;
+}
+
+.form-box button[type="submit"]:hover, 
+.form-box2 button[type="submit"]:hover {
+    background: none;
+    color: #E8600F;
+}
+
+h1{
+    color: #E8600F;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    color: #E8600F;
+    opacity: 0.9;
+}
+
+h3{
+    color: #E8600F;
+    opacity: 0.9;
+}
+
+h4{
+    color: #E8600F;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.form-box button[type="submit"] #entrar:hover  {
+    background: none;
+    color: #E8600F;
+}
+
+#entrar:hover  {
+    color: #E8600F;
+}
+
+.div{
+    padding: 0;
+}
+
+nav {
+    align-content: center;
+    background-color: #fff;
+}
+ 
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+ 
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.li_right{
+    float: right;
+}
+ 
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #E8600F;
+    font-weight: bold;
+    text-decoration: none;
+}
+ 
+nav ul li a:hover {
+    background: #E8600F;
+    color: white;
+}
+
+.form-box2 input[type="radio"] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.form-box2 input[type="radio"] + .img {
+    cursor: pointer;
+    margin: 25px;
+}
+
+.form-box2 input[type="radio"]:checked + .img {
+    outline: 2px solid #E8600F;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px 35px 15px 35px;
+    background: #fff;
+    opacity: 0.8;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenido{
+    font-family: Arial;
+}
+
+.TablaS{
+    aling-items: center;
+    aling:justify-content;
+    margin: auto;
+    padding: 20px 20px;
+}
