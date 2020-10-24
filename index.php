@@ -14,12 +14,12 @@
   <header>
     <img src="imagenes/header.png">
   </header>
-    <form action="lib/main.html" class="form-box animated fadeInUp">
+    <form action="core/controladores/LoginController.php" class="form-box animated fadeInUp" method="POST">
         <h1>Inicio de sesión</h1>
         <h2>Correo electronico</h2>
-        <input type="email" placeholder="example@unipanamericana.edu.co">
+        <input id="email" name="email" type="email" placeholder="example@unipanamericana.edu.co">
         <h2>Contraseña</h2>
-        <input type="password" placeholder="***********">
+        <input type="password" placeholder="***********" name="password" id="password">
         <button id="entrar" type="submit">INICIAR SESIÓN</button>
         <h4>¿No tienes cuenta?<br>Regristrate <a href="lib/registro.html">aquí</a></h4>
     </form>
