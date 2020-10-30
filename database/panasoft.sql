@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 23-10-2020 a las 03:00:21
+-- Tiempo de generación: 30-10-2020 a las 02:54:06
 -- Versión del servidor: 10.4.6-MariaDB
 -- Versión de PHP: 7.3.9
 
@@ -33,6 +33,13 @@ CREATE TABLE `avatar` (
   `nombre` varchar(50) COLLATE utf8_spanish2_ci NOT NULL,
   `vigente` varchar(1) COLLATE utf8_spanish2_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish2_ci;
+
+--
+-- Volcado de datos para la tabla `avatar`
+--
+
+INSERT INTO `avatar` (`codigo`, `nombre`, `vigente`) VALUES
+(1, 'Prueba', 'S');
 
 -- --------------------------------------------------------
 
@@ -113,10 +120,17 @@ CREATE TABLE `usuario` (
   `nombres` varchar(50) COLLATE utf8_spanish2_ci NOT NULL,
   `apellidos` varchar(50) COLLATE utf8_spanish2_ci NOT NULL,
   `correo` varchar(200) COLLATE utf8_spanish2_ci NOT NULL,
-  `password` varchar(200) COLLATE utf8_spanish2_ci NOT NULL,
+  `contrasena` varchar(200) COLLATE utf8_spanish2_ci NOT NULL,
   `puntaje` double NOT NULL,
   `avatar_codigo` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish2_ci;
+
+--
+-- Volcado de datos para la tabla `usuario`
+--
+
+INSERT INTO `usuario` (`codigo`, `nombres`, `apellidos`, `correo`, `contrasena`, `puntaje`, `avatar_codigo`) VALUES
+(3, 'Pedro Julian', 'Vargas Mejia', 'pjvargas1296@gmail.com', 'a83f0f76c2afad4f5d7260824430b798', 0, 1);
 
 --
 -- Índices para tablas volcadas
@@ -178,7 +192,7 @@ ALTER TABLE `usuario`
 -- AUTO_INCREMENT de la tabla `avatar`
 --
 ALTER TABLE `avatar`
-  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de la tabla `examen`
@@ -208,7 +222,7 @@ ALTER TABLE `respuesta`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Restricciones para tablas volcadas

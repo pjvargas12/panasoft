@@ -18,12 +18,12 @@
           <li><a href="#">Inicio</a></li>
           <li><a href="reglas.html">Reglas de juego</a></li>
           <li><a href="#">Acerca de</a></li>
-          <li class="li_right"><a href="../index.html">Cerrar sesión</a></li>
+          <li class="li_right"><a href="../index.php">Cerrar sesión</a></li>
         </ul>
       </nav>
     </header>
     <section>
-      <form class="form-box2">
+      <form class="form-box2" action="game.html">
         <h1>Seleccione un ávatar:</h1>
         <br>
         <label>
@@ -34,7 +34,7 @@
         </label>
         <label>
           <input type="radio" name="avatar" value="dinosaurio"><img class="img" width="20%" src="../imagenes/dinosaurio.png">
-        </label>        
+        </label>   
         <button type="submit">JUGAR</button>
       </form>
     </section>
