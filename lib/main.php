@@ -17,7 +17,7 @@
         <ul>
           <li><a href="#">Inicio</a></li>
           <li><a href="reglas.html">Reglas de juego</a></li>
-          <li><a href="#">Acerca de</a></li>
+          <li><a href="sobreNosotros.html">Acerca de</a></li>
           <li class="li_right"><a href="../index.php">Cerrar sesión</a></li>
         </ul>
       </nav>
