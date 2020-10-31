@@ -21,7 +21,7 @@
         <h2>Contraseña</h2>
         <input type="password" placeholder="***********" name="password" id="password">
         <button id="entrar" type="submit">INICIAR SESIÓN</button>
-        <h4>¿No tienes cuenta?<br>Regristrate <a href="lib/registro.html">aquí</a></h4>
+        <h4>¿No tienes cuenta?<br>Regristrate <a href="lib/registro.php">aquí</a></h4>
     </form>
 </body>
 
