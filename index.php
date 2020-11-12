@@ -20,8 +20,8 @@
         <input id="email" name="email" type="email" placeholder="example@unipanamericana.edu.co">
         <h2>Contraseña</h2>
         <input type="password" placeholder="***********" name="password" id="password">
-        <button id="entrar" type="submit">INICIAR SESIÓN</button>
-        <h4>¿No tienes cuenta?<br>Regristrate <a href="lib/registro.php">aquí</a></h4>
+        <button name="entrar" type="submit" value="1">INICIAR SESIÓN</button>
+        <h4>¿No tienes cuenta?<br>Regristrate <a href="core/vistas/registro.php">aquí</a></h4>
     </form>
 </body>
 

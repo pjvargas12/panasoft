@@ -1,20 +1,35 @@
+<?php 
+ session_start();
+ if (!isset($_SESSION['valida'])) {
+   echo'<script type="text/javascript">
+        alert("Debe iniciar sesión");
+        window.location.href="../../index.php";
+      </script>';
+ }
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../lib/style.css">
     <title>Panasoft - Reglas</title>
 </head>
 <body class="body-main">
   <header>
-    <img src="../imagenes/header.png">
+    <img src="../../imagenes/header.png">
     <nav>
       <ul>
         <li><a href="main.php">Inicio</a></li>
         <li><a href="#">Reglas de juego</a></li>
-        <li><a href="sobreNosotros.html">Acerca de</a></li>
-        <li class="li_right"><a href="../index.php">Cerrar sesión</a></li>
+        <li><a href="sobreNosotros.php">Acerca de</a></li>
+        <li class="li_right">
+            <form method="POST" action="../controladores/LoginController.php">
+              <button type="submit" name="btnCerrar" class="btnCerrar">
+                Cerrar sesión
+              </button>
+            </form>
+          </li>
       </ul>
     </nav>
   </header>
@@ -68,4 +83,22 @@
     </div>
   </section>
 </body>
+<style type="text/css">
+  .btnCerrar{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: #E8600F;
+    font-weight: bold;
+    border:0px;
+    background: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  .btnCerrar:hover{
+    background: #E8600F;
+    color: white;
+    cursor:pointer;
+  }
+</style>
 </html>
