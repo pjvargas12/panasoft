@@ -36,25 +36,24 @@
   <section class="contenido wrapper">
     <h1>Sobre Nosotros</h1>
       <Div style="text-align: justify;">
-          <p >Hola! </br>
+          <p >¡Hola! </br>
           </br>
           El día de hoy te queremos contar un poco sobre nosotros, 
-          somos estudiantes de <b>ingeniería de software</b> específicamente en 6to semestre, 
-          nuestro equipo esta conformado por tres integrantes con muchas ganas de que 
-          los estudiantes, docentes o terceros conozcan un poco mas sobre nuestra institución. 
+          somos estudiantes de 6to semestre de la carrera <b>ingeniería de software</b>.<br>
+          Nuestro equipo está conformado por tres integrantes con muchas ganas de que 
+          los estudiantes, docentes y terceros conozcan un poco más sobre nuestra institución. 
           </p>
-          <p>La idea de este proyecto surge debido a que al ingresar a la institución muchas 
-            veces no lográbamos reconocer todas las sedes ya que la verdad hay bastantes, 
-            acontinuación te dejamos unos mapas con todas las sedes  <p>
+          <p>La idea de este proyecto surge debido a un problema que muy seguramente todos tuvimos al ingresar a la institución, ya que muchas veces no lográbamos reconocer y ubicar todas las sedes tan rápido, lo que nos generaba llegadas tarde u otro tipo de inconvenientes.<br>
+          A continuación, te dejamos algunos de mapas con los que te puedes ubicar y ver donde están nuestras sedes: <p>
       </Div>
           <div class="containerF">
   
             <ul class="slider">
               <li id="slide1">
-                <img src="../../imagenes/mapa2.jpg" width="500px" />
+                <img src="../../imagenes/mapa2.jpg" width="500px" alt="Sede Principal" />
               </li>
               <li id="slide2">
-                <img src="../../imagenes/mapa1.jpg" width="500px"/>
+                <img src="../../imagenes/mapa1.jpg" width="500px" alt="Mapa general" />
               </li>
             </ul>
             
